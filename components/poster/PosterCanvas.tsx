@@ -51,6 +51,7 @@ export default function PosterCanvas({ gamerInfo, gamerGames }: { gamerInfo?: Ga
   useEffect(() => {
     const capture: HTMLElement | null = document.querySelector('#poster-capture');
     console.log("*****************************************************************************************************")
+    // @ts-ignore
     html2canvas(capture, {
       useCORS: true,
       allowTaint: true,
