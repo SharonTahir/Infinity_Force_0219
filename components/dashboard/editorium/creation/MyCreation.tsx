@@ -2,7 +2,7 @@ import Button from '@/components/button';
 import { EventCategory, EventName } from '@/constants/event';
 import { arcanaEditorDownloadDialogOpen, arcanaNotSubmittedListAtom, arcanaSubmittedListAtom } from '@/store/arcana/state';
 import { openLink } from '@/utils';
-import _ from 'lodash-es';
+import * as _ from 'lodash-es';
 import { useMemo } from 'react';
 import ReactGA from 'react-ga4';
 import { useRecoilValue, useSetRecoilState } from 'recoil';

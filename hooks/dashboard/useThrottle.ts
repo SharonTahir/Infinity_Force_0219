@@ -1,5 +1,5 @@
 import { useRef, useEffect, useCallback } from 'react';
-import _ from 'lodash-es';
+import * as _ from 'lodash-es';
 
 /**
  * 它返回传入函数的节流版本，每 `delay` 毫秒仅调用一次

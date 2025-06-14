@@ -5,7 +5,7 @@ import { fetchInvitationCode } from '@/lib/api-nest';
 import { arcanaInvitationInfoAtom, arcanaPowerVoteAtom } from '@/store/arcana/state';
 import { invitationCountSelector, referralCodeAtom } from '@/store/invite/state';
 import { useQuery } from '@tanstack/react-query';
-import _ from 'lodash-es';
+import * as _ from 'lodash-es';
 import { useCallback, useMemo } from 'react';
 import ReactGA from 'react-ga4';
 import { toast } from 'react-toastify';
