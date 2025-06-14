@@ -64,7 +64,6 @@ export default function PosterCanvas({ gamerInfo, gamerGames }: { gamerInfo?: Ga
     });
   }, [gamerGames, gamerInfo?.nft_claim, gamerInfo?.nft_level, setPosterCapture]);
 
-
   if (gamerInfo?.nft_claim !== GenesisClaim.Claimed || gamerInfo?.nft_level === GenesisRarity.Rekt) return null;
 
   return (
